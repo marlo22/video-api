@@ -1,0 +1,49 @@
+{
+  "name": "",
+  "version": "",
+  "main": "",
+  "author": "",
+  "license": "",
+  "scripts": {
+    "start": "MODE=development gulp development",
+    "build": "MODE=production gulp production"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.4.0",
+    "flow-bin": "^0.80.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-inject-string": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-sass": "^3.1.0",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "webpack": "^3.8.1",
+    "webpack-merge": "^4.1.1",
+    "webpack-stream": "^4.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "immer": "^1.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  }
+}

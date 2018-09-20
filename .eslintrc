@@ -1,0 +1,12 @@
+{
+  "extends": ["airbnb", "plugin:flowtype/recommended"],
+  "plugins": ["flowtype"],
+  "rules": {
+    "quote-props": 0
+  },
+  "globals": {
+    "document": false,
+    "window": false,
+    "localStorage": false
+  }
+}
